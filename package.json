@@ -1,7 +1,7 @@
 {
   "name": "kaysee-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A dark theme for Atom with an IDLE version. Based on my own custom IDLE syntax theme.",
   "repository": "https://github.com/atom/kaysee-syntax",
   "license": "MIT",

@@ -27,11 +27,9 @@ atom-text-editor, :host {
     color: @syntax-gutter-text-color;
 
     .line-number {
-      border-right: 2px solid darken(@syntax-gutter-background-color, 5%);
       &.cursor-line {
         background-color: @syntax-gutter-background-color-selected;
         color: @syntax-gutter-text-color-selected;
-        border-right: 2px solid darken(@syntax-gutter-background-color-selected, 5%);
       }
 
       &.cursor-line-no-selection {
@@ -139,7 +137,7 @@ atom-text-editor .search-results .marker.current-result .region,
   &.parameter.function {
     color: @syntax-text-color;
   }
-  
+
   &.other {
     color: @deep-text;
   }
